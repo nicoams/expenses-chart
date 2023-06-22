@@ -1,0 +1,112 @@
+@use 'base';
+@use 'colors';
+
+
+.dashboard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1em;
+
+  span {
+    color: colors.$neutral1;
+    font-weight: 700;
+  }
+
+  .title {
+    font-size: 0.8em;
+    color: colors.$neutral2;
+  }
+
+  .chart {
+    border-bottom: 3px solid colors.$neutral3;
+    margin-bottom: 1em;
+
+    .title {
+      font-size: 1.2em;
+    }
+
+    .data-display {
+      height: auto;
+      margin: 1em 0;
+
+
+      ul {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+          height: 100%;
+          width: 30px;
+          list-style: none;
+          font-size: 0.7em;
+          color: colors.$neutral2;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+
+          .amount {
+            height: calc(100% - 1em);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .column{
+              height: 18%;
+              background-color: colors.$primary1;
+              border-radius: 5px;
+            }
+
+            .wed{
+              height: 53%;
+              background-color: colors.$primary2;
+            }
+          }
+
+          .day{
+            height: 1em;
+            margin: 1em 0;
+          }
+        }
+      }
+    }
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+
+    .month-total {
+      .amount {
+        font-size: 1.5em;
+      }
+    }
+
+    .amount-variation {
+      .amount {
+        display: block;
+        width: 100%;
+        font-size: 0.8em;
+        text-align: right;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px){
+  .dashboard{
+      height: auto;
+
+      .chart{
+        height: auto;
+      }
+
+      .total{
+        height: auto;
+      }
+  }
+}

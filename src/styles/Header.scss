@@ -1,0 +1,33 @@
+@use 'base';
+@use 'colors';
+
+.header {
+  height: auto;
+  color: white;
+  background-color: colors.$primary1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+
+  .balance {
+    height: 100%;
+
+    .title {
+      font-size: 0.7em;
+      line-height: 2em;
+      font-weight: 400;
+    }
+
+    .amount {
+      font-size: 1.2em;
+      font-weight: 700;
+    }
+  }
+
+  img {
+    height: 40px;
+  }
+}
