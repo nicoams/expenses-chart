@@ -10,11 +10,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -40,8 +36,8 @@ Users should be able to:
 ![](./public/screenshots/Mobile%20-%20Active.png)
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-expenses-chart-using-reactjs-NITJmQMMxY)
+- Live Site URL: [GitHub](https://nicoams.github.io/expenses-chart/)
 
 ## My process
 
